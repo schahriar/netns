@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/docker/libnetwork/iptables"
-	"github.com/genuinetools/netns/netutils"
+	"github.com/schahriar/netns/netutils"
 	"github.com/vishvananda/netlink"
 )
 

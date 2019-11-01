@@ -1,4 +1,4 @@
-module github.com/genuinetools/netns
+module github.com/schahriar/netns
 
 require (
 	github.com/boltdb/bolt v1.3.1 // indirect

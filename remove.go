@@ -5,7 +5,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/genuinetools/netns/bridge"
+	"github.com/schahriar/netns/bridge"
 )
 
 const removeHelp = `Delete a network.`

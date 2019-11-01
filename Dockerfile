@@ -8,7 +8,7 @@ RUN	apk add --no-cache \
 	bash \
 	ca-certificates
 
-COPY . /go/src/github.com/genuinetools/netns
+COPY . /go/src/github.com/schahriar/netns
 
 RUN set -x \
 	&& apk add --no-cache --virtual .build-deps \
@@ -18,7 +18,7 @@ RUN set -x \
 		linux-headers \
 		libgcc \
 		make \
-	&& cd /go/src/github.com/genuinetools/netns \
+	&& cd /go/src/github.com/schahriar/netns \
 	&& make static \
 	&& mv netns /usr/bin/netns \
 	&& apk del .build-deps \

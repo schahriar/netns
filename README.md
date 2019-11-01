@@ -1,8 +1,8 @@
 # netns
 
 [![Travis CI](https://img.shields.io/travis/genuinetools/netns.svg?style=for-the-badge)](https://travis-ci.org/genuinetools/netns)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-5272B4.svg?style=for-the-badge)](https://godoc.org/github.com/genuinetools/netns)
-[![Github All Releases](https://img.shields.io/github/downloads/genuinetools/netns/total.svg?style=for-the-badge)](https://github.com/genuinetools/netns/releases)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-5272B4.svg?style=for-the-badge)](https://godoc.org/github.com/schahriar/netns)
+[![Github All Releases](https://img.shields.io/github/downloads/genuinetools/netns/total.svg?style=for-the-badge)](https://github.com/schahriar/netns/releases)
 
 Runc hook for setting up default bridge networking.
 
@@ -19,12 +19,12 @@ Runc hook for setting up default bridge networking.
 
 #### Binaries
 
-For installation instructions from binaries please visit the [Releases Page](https://github.com/genuinetools/netns/releases).
+For installation instructions from binaries please visit the [Releases Page](https://github.com/schahriar/netns/releases).
 
 #### Via Go
 
 ```console
-$ go get github.com/genuinetools/netns
+$ go get github.com/schahriar/netns
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ Flags:
 
   --ipfile     file in which to save the containers ip address (default: .ip)
   --mtu        mtu for bridge (default: 1500)
-  --state-dir  directory for saving state, used for ip allocation (default: /run/github.com/genuinetools/netns)
+  --state-dir  directory for saving state, used for ip allocation (default: /run/github.com/schahriar/netns)
   --bridge     name for bridge (default: netns0)
   -d           enable debug logging (default: false)
   --iface      name of interface in the namespace (default: eth0)
